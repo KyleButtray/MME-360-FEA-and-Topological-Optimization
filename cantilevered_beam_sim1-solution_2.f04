@@ -1,0 +1,104 @@
+1
+ MACHINE                        MODEL                 OPERATING SYSTEM       Simcenter Nastran  BUILD DATE         RUN DATE
+ Intel64 Family 6 Mod           12th Gen Intel(R) Co  Windows 10             VERSION 2306.0084  APR 24, 2023       SEP 11, 2025
+
+ 
+                            ===    S i m c e n t e r  N a s t r a n   E X E C U T I O N   S U M M A R Y    ===
+
+ Day_Time  Elapsed     I/O_Mb      Del_Mb     CPU_Sec    Del_CPU    Subroutine
+ 
+ 14:19:34     0:00        0.0         0.0         0.0        0.0    SEMTRN   BGN
+ 14:19:34     0:00        0.0         0.0         0.0        0.0    SEMTRN   END
+ 14:19:34     0:00        0.0         0.0         0.0        0.0    DBINIT   BGN
+      ** CURRENT PROJECT ID = ' "BLANK" '  ** CURRENT VERSION ID =          1
+
+     S U M M A R Y   O F   F I L E   A S S I G N M E N T   F O R   T H E   P R I M A R Y   D A T A B A S E     ( DBSNO   1, SCN20.2 )
+
+    ASSIGNED PHYSICAL FILE NAME (/ORIGINAL)      LOGICAL NAME     DBSET        STATUS    BUFFSIZE     CLUSTER SIZE      TIME STAMP
+    ---------------------------------------      ------------     -----        ------    --------     ------------     ------------
+    ...beam_sim1-solution_2.T15816_23.MASTER     MASTER           MASTER       NEW          32769           1          250911141934
+    ..._beam_sim1-solution_2.T15816_23.DBALL     DBALL            DBALL        NEW          32769           1          250911141935
+    ...beam_sim1-solution_2.T15816_23.OBJSCR     OBJSCR           OBJSCR       NEW           8193           1          250911141936
+               **** MEM FILE ****                * N/A *          SCRATCH 
+    ...eam_sim1-solution_2.T15816_23.SCRATCH     SCRATCH          SCRATCH      NEW          32769           1          250911141937
+    ...beam_sim1-solution_2.T15816_23.SCR300     SCR300           SCRATCH      NEW          32769           1          250911141938
+ 14:19:34     0:00        7.0         7.0         0.0        0.0    DBINIT   END
+ 14:19:34     0:00        7.0         0.0         0.0        0.0    XCSA     BGN
+
+     S U M M A R Y   O F   F I L E   A S S I G N M E N T   F O R   T H E   D E L I V E R Y   D A T A B A S E   ( DBSNO   2, SCN20.2 )
+
+    ASSIGNED PHYSICAL FILE NAME (/ORIGINAL)      LOGICAL NAME     DBSET        STATUS    BUFFSIZE     CLUSTER SIZE      TIME STAMP
+    ---------------------------------------      ------------     -----        ------    --------     ------------     ------------
+    c:/.../scnas/em64tntl/SSS.MASTERA            MASTERA          MASTER       OLD           8193           1          230424121652
+   /./sss.MASTERA                           
+    c:/program files/.../em64tntl/SSS.MSCOBJ     MSCOBJ           MSCOBJ       OLD           8193           1          230424121657
+   /./sss.MSCOBJ                            
+    c:/program files/.../em64tntl/SSS.MSCSOU     MSCSOU           MSCSOU       OLD           8193           1          230424121658
+   /./sss.MSCSOU                            
+ 14:19:34     0:00      528.0       521.0         0.0        0.0    XCSA     END
+ 14:19:34     0:00      528.0         0.0         0.0        0.0    CGPI     BGN
+ 14:19:34     0:00      528.0         0.0         0.0        0.0    CGPI     END
+ 14:19:34     0:00      528.0         0.0         0.0        0.0    LINKER   BGN
+ 14:19:34     0:00     1067.0       539.0         0.0        0.0    LINKER   END
+
+                    S U M M A R Y   O F   P H Y S I C A L   F I L E   I N F O R M A T I O N
+
+    ASSIGNED PHYSICAL FILE NAME                                   RECL (BYTES)  MODE  FLAGS  WSIZE  (WNUM)
+    ------------------------------------------------------------  ------------  ----  -----  -------------
+    c:/.../cantilevered_beam_sim1-solution_2.T15816_23.SCRATCH          262144   R/W           N/A        
+    c:/.../cantilevered_beam_sim1-solution_2.T15816_23.OBJSCR            65536   R/W           N/A        
+    c:/.../cantilevered_beam_sim1-solution_2.T15816_23.MASTER           262144   R/W           N/A        
+    c:/.../cantilevered_beam_sim1-solution_2.T15816_23.DBALL            262144   R/W           N/A        
+    c:/.../cantilevered_beam_sim1-solution_2.T15816_23.SCR300           262144   R/W           N/A        
+    c:/program files/siemens/.../scnas/em64tntl/SSS.MASTERA              65536   R/O           N/A        
+    c:/program files/siemens/.../scnas/em64tntl/SSS.MSCOBJ               65536   R/O           N/A        
+
+    FLAG VALUES ARE --
+      B   BUFFERED I/O USED TO PROCESS FILE
+      M   FILE MAPPING USED TO PROCESS FILE
+      R   FILE BEING ACCESSED IN 'RAW' MODE
+ 
+    ASSIGNED PHYSICAL FILE NAME                                   LOGICAL   UNIT  STATUS   ACCESS   RECL  FORM    FLAGS
+    ------------------------------------------------------------  --------  ----  -------  ------  -----  ------  -----
+    ./cantilevered_beam_sim1-solution_2.f04                       LOGFL        4  OLD      SEQ      N/A   FMTD         
+    ./cantilevered_beam_sim1-solution_2.f06                       PRINT        6  OLD      SEQ      N/A   FMTD         
+    c:/program files/siemens/.../nxnastran/scnas/nast/news.txt    INCLD1       9  OLD      SEQ      N/A   FMTD      R  
+    ./cantilevered_beam_sim1-solution_2.plt                       PLOT        14  OLD      SEQ      N/A   UNFMTD       
+    ./cantilevered_beam_sim1-solution_2.op2                       OP2         12  OLD      SEQ      N/A   UNFMTD       
+    ./cantilevered_beam_sim1-solution_2.nav                       OUTPUT4     18  UNKNOWN  SEQ      N/A   FMTD         
+    ./cantilevered_beam_sim1-solution_2.nmc                       INPUTT4     19  OLD      SEQ      N/A   FMTD      R  
+    ./cantilevered_beam_sim1-solution_2.f56                       F56         56  UNKNOWN  SEQ      N/A   FMTD         
+    c:/.../temp/cantilevered_beam_sim1-solution_2.T15816_23.sf1   SF1         93  OLD      SEQ      N/A   UNFMTD   T   
+    c:/.../temp/cantilevered_beam_sim1-solution_2.T15816_23.sf2   SF2         94  OLD      SEQ      N/A   UNFMTD   TR  
+    ./cantilevered_beam_sim1-solution_2.s200tmp                   S200       112  UNKNOWN  SEQ      N/A   UNFMTD   T   
+    ./cantilevered_beam_sim1-solution_2_sol200.csv                CSV        113  UNKNOWN  SEQ      N/A   FMTD         
+    ./cantilevered_beam_sim1-solution_2.pch                       PUNCH        7  OLD      SEQ      N/A   FMTD         
+    ./cantilevered_beam_sim1-solution_2.xdb                       DBC         40  UNKNOWN  DIRECT   1024  UNFMTD       
+    ./cantilevered_beam_sim1-solution_2.asm                       ASSEM       16  OLD      SEQ      N/A   FMTD         
+
+    FLAG VALUES ARE --
+      A   FILE HAS BEEN DEFINED BY AN 'ASSIGN' STATEMENT
+      D   FILE IS TO BE DELETED BEFORE RUN, IF IT EXISTS
+      R   FILE IS READ-ONLY
+      T   FILE IS TEMPORARY AND WILL BE DELETED AT END OF RUN
+
+    ** PHYSICAL FILES LARGER THAN 2GB ARE SUPPORTED ON THIS PLATFORM
+ 
+0    ** MASTER DIRECTORIES ARE LOADED IN MEMORY.
+        USER OPENCORE (HICORE)         =  1148099086  WORDS
+        EXECUTIVE SYSTEM WORK AREA     =      400175  WORDS
+        MASTER(RAM)                    =      101183  WORDS
+        SCRATCH(MEM) AREA              =   382872996  WORDS (   11684 BUFFERS)
+        BUFFER POOL AREA (GINO/EXEC)   =   382858720  WORDS (   11680 BUFFERS)
+        TOTAL OPEN CORE MEMORY         =  1914332160  WORDS
+        TOTAL DYNAMIC MEMORY           =           0  WORDS
+
+        TOTAL NASTRAN MEMORY LIMIT     =  1914332160  WORDS
+
+
+ Day_Time  Elapsed     I/O_Mb      Del_Mb     CPU_Sec    Del_CPU    SubDMAP Line (S)SubDMAP/Module
+ 
+ 14:19:34     0:00     1069.0         2.0         0.0        0.0    XSEMDR   BGN
+ 14:19:34     0:00     1071.0         2.0         0.0        0.0    SESTATIC67   (S)IFPL    BEGN    
+ 14:19:34     0:00     1071.0         0.0         0.0        0.0    IFPL    46      IFP1    BEGN    
+ 14:19:34     0:00     1071.0         0.0         0.0        0.0    IFPL    195     XSORT   BEGN    

@@ -1,0 +1,123 @@
+Simcenter Nastran 2306.0000 (Intel64 Family 6 Model 151 Stepping 2 Windows 10) Control File:
+--------------------------------------------------------------------------------------
+Nastran BUFFSIZE=32769 $(c:/program files/siemens/nx2306/nxnastran/conf/nastran.rcf[1])
+Nastran BUFFPOOL=20.0X $(c:/program files/siemens/nx2306/nxnastran/conf/nastran.rcf[4])
+Nastran DIAGA=128 DIAGB=0 $(c:/program files/siemens/nx2306/nxnastran/conf/nastran.rcf[8])
+Nastran SYSTEM(442)=2 $(command line[5])
+Nastran REAL=4252499968 $(Memory limit for MPI and other specialized modules)
+JID='M:\MME360\Cantilevered Beam\cantilevered_beam_sim1-solution_2.dat'
+OUT='./cantilevered_beam_sim1-solution_2'
+MEM=1914332160
+MACH='Intel64 Family 6 Model 151 Stepping 2'
+OPER='Windows 10'
+OSV=' '
+MODEL='12th Gen Intel(R) Core(TM) i7-12700 (CEC-HUG325A-A09)'
+CONFIG=8666
+NPROC=20
+symbol=DELDIR='c:/program files/siemens/nx2306/nxnastran/scnas/nast/del' $(program default)
+symbol=DEMODIR='c:/program files/siemens/nx2306/nxnastran/scnas/nast/demo' $(program default)
+symbol=SSSALTERDIR='c:/program files/siemens/nx2306/nxnastran/scnas/nast/misc/sssalter' $(program default)
+symbol=TPLDIR='c:/program files/siemens/nx2306/nxnastran/scnas/nast/tpl' $(program default)
+SDIR='c:/users/buttrakd/appdata/local/temp/cantilevered_beam_sim1-solution_2.T15816_23'
+DBS='c:/users/buttrakd/appdata/local/temp/cantilevered_beam_sim1-solution_2.T15816_23'
+SCR=yes
+SMEM=20.0X
+NEWDEL='c:/program files/siemens/nx2306/nxnastran/scnas/em64tntl/SSS'
+DEL='NXNDEF'
+AUTH='29000@reg-license.it.muohio.edu'
+AUTHQUE=0
+MSGCAT='c:/program files/siemens/nx2306/nxnastran/scnas/em64tntl/analysis.msg'
+MSGDEST='f06'
+PROG=bundle
+NEWS='c:/program files/siemens/nx2306/nxnastran/scnas/nast/news.txt'
+UMATLIB='libnxumat.dll'
+UCRPLIB='libucreep.dll'
+USOLLIB='libusol.dll'
+--------------------------------------------------------------------------------------
+NXN_ISHELLPATH=C:\Program Files\Siemens\NX2306\nxnastran\bin
+NXN_JIDPATH=
+PATH=c:/program files/siemens/nx2306/nxnastran/scnas/em64tntl;c:/program files/siemens/nx2306/nxnastran/scnas/em64tntl/sysnoise;c:/program files/siemens/nx2306/nxnastran/scnas/em64tntl/softwareanalytics;c:/program files/siemens/nx2306/nxnastran/scnas/em64tntl/samcef;c:/program files/siemens/nx2306/nxnastran/scnas/em64tntl/impi/bin;c:/program files/siemens/nx2306/nxnastran/scnas/em64tntl/monitor;C:\Program Files\Siemens\NX2306\nxbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Siemens\NX2306\CAPITALINTEGRATION\capitalnxremote\;C:\Program Files\MATLAB\R2024a\runtime\win64;C:\Program Files\MATLAB\R2024a\bin;C:\Program Files\dotnet\;C:\Users\buttrakd\AppData\Local\Microsoft\WindowsApps;
+Command Line: cantilevered_beam_sim1-solution_2.dat prog=bundle old=no scratch=yes sys442=2
+Current Dir: M:\MME360\Cantilevered Beam
+Executable:  c:/program files/siemens/nx2306/nxnastran/scnas/em64tntl/analysis.exe
+NXN_MSG:     stderr
+FPE:         no
+--------------------------------------------------------------------------------------
+Current resource limits:
+ Physical memory:                    32456 MB
+ Physical memory available:           7766 MB
+ Paging file size:                   37320 MB
+ Paging file size available:          7992 MB
+ Virtual memory:                 134217727 MB
+ Virtual memory available:       134213566 MB
+--------------------------------------------------------------------------------------
+System configuration:
+ Hostname:         CEC-HUG325A-A09.it.muohio.edu
+ Architecture:     em64tnt
+ Platform:         Intel64 Family 6 Model 151 Stepping 2 Windows 10  
+ Model:            12th Gen Intel(R) Core(TM) i7-12700
+ Clock freq.:      2112 MHz
+ Number of CPUs:   20
+ Executable:       standard
+ Raw model ID:     8666
+ Config number:    8666
+ Physical memory:  32456 MB
+ Virtual memory:   38351 MB
+ Numeric format:   64-bit little-endian IEEE.
+ Bytes per word:   8
+ Disk block size:  512 bytes (64 words)
+ Remote shell cmd: Remote capabilities not available.
+--------------------------------------------------------------------------------------
+Simcenter Nastran started  Thu Sep 11 14:19:33 EDT 2025
+ 14:19:34  Beginning Analysis
+
+ 14:19:34  Simcenter NASTRAN Authorization Information - System Attributes
+ 14:19:34  --------------------------------------------------------
+ 14:19:34  Model: 12th Gen Intel(R) Core(TM) i7-12
+ 14:19:34  Machine: Intel64 Family 6 Model 151 Stepp
+ 14:19:34  OS: Windows 10
+ 14:19:34  Version:
+ 14:19:34  License File(s): 29000@reg-license.it.muohio.edu
+
+ 14:19:34  app set license server to 29000@reg-license.it.muohio.edu
+
+ 14:19:34  ************** License Server/File Information **************
+
+  Server/File                      : 29000@reg-license.it.muohio.edu
+  License File Sold To / Install   : 1943094 - MIAMI UNIVERSITY
+  License File Webkey Access Code  : FGPRGJ51D0
+  License File Issuer              : SIEMENS
+  License File Type                : No Type
+  Flexera Daemon Version           : 11.19
+  Vendor Daemon Version            : 11.1 SALT v4.3.0.0
+
+ 14:19:34  *************************************************************
+
+ 14:19:34  borrow count = 0
+
+ 14:19:34  **************** License Session Information ****************
+
+  Toolkit Version          : 2.1.0.0
+  Server Setting Used      : 29000@reg-license.it.muohio.edu
+  Server Setting Location  : Application Specific Location.
+
+  Number of bundles in use : 3
+  Bundle [ 0 ] : ACD11
+  Bundle [ 1 ] : ACD10
+  Bundle [ 2 ] : TCUACAD
+
+ 14:19:34  *************************************************************
+
+
+ 14:19:34  Simcenter NASTRAN Authorization Information - Checkout Successful
+ 14:19:34  -----------------------------------------------------------------
+ 14:19:34  License for module Simcenter Nastran Basic - NX Desktop (Bundle)  checked out successfully
+
+ 14:19:34  Loading Shared Library C:\Program Files\Siemens\NX2306\nxcae_extras\tmg\exe\mayamoncomm.dll
+
+Starting viewer with UGII_MONITOR_DIR set to 'C:\Program Files\Siemens\NX2306\nxcae_extras\tmg\exe'
+Starting monitor viewer at C:\Program Files\Siemens\NX2306\nxcae_extras\tmg\exe/xcsmon_viewer.exe
+ 14:19:34  Viewer API version is:    11
+ 14:19:34  Viewer API minor version is:     6
+ 14:19:34  Monitor Version Info: Simcenter 3D Simulation Control Monitor 2306.2 Jun 28 2023 (Version 2306.178209)
+

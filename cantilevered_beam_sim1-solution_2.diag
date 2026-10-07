@@ -1,0 +1,69 @@
+
+*** 13:25:27 *** 
+Starting Nastran Exporter
+
+*** 13:25:37 *** 
+Writing file M:\MME360\Cantilevered Beam\cantilevered_beam_sim1-solution_2.dat
+
+*** 13:25:57 *** 
+Writing SIMCENTER NASTRAN 2306.0 compatible deck
+
+*** 13:25:57 *** 
+Writing Nastran System section
+
+*** 13:25:57 *** 
+Writing File Management section
+
+*** 13:25:57 *** 
+Writing Executive Control section
+
+*** 13:25:57 *** 
+Writing Case Control section
+
+*** 13:26:02 *** 
+Writing Bulk Data section
+
+*** 13:26:02 *** 
+Writing Nodes
+
+*** 13:37:33 *** 
+Writing Elements
+
+*** 13:46:16 *** 
+Writing Physical Properties
+
+*** 13:46:16 *** 
+Writing Materials
+
+*** 13:46:16 *** 
+Writing Degree-of-Freedom Sets
+
+*** 13:46:16 *** 
+Writing Loads and Constraints
+
+*** 13:46:18 *** 
+Writing Coordinate Systems
+
+*** 13:46:18 *** 
+Validating Solution Setup
+
+*** 13:46:18 *** 
+Summary of Bulk Data cards written
+
++----------+----------+
+|   NAME   |  NUMBER  |
++----------+----------+
+| CTETRA   | 6977612  |
+| FORCE    | 22444    |
+| GRID     | 9768219  |
+| MAT1     | 1        |
+| MATT1    | 1        |
+| PARAM    | 6        |
+| PSOLID   | 1        |
+| SPC      | 30033    |
+| TABLEM1  | 3        |
++----------+----------+
+
+*** 13:46:18 *** 
+Nastran Deck Successfully Written
+
